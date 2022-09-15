@@ -3,7 +3,7 @@ document.write(
         '<div class="sub_header_inner">'+
                 '<div class="header_wrap transition_trg">'+
                     '<h1 class="logo" style="display: block;">'+
-                        'Web Desgin'+
+                        'Ayaka Kanou Portfolio'+
                     '</h1>'+
                 '</div>'+
             '</div>'+
@@ -11,19 +11,14 @@ document.write(
             '<!-- PC Menu -->'+
             '<nav>'+            
                 '<ul class="menu">'+
-                    '<li class="portfolio">'+
-                        '<a href="#portfolio">'+
-                            'Portfolio'+
+                    '<li>'+
+                        '<a href="index.html">'+
+                            'About'+
                         '</a>'+
                     '</li>'+
-                    '<li class="profile">'+
-                        '<a href="#profile">'+
-                            'Profile'+
-                        '</a>'+
-                    '</li>'+
-                    '<li class="contact">'+
-                        '<a href="#contact">'+
-                            'Contact'+
+                    '<li>'+
+                        '<a href="photo.html">'+
+                            'Photo'+
                         '</a>'+
                     '</li>'+
                 '</ul>'+
