@@ -39,32 +39,48 @@ header h1 {
     text-decoration: none;
 }
 
-.main-top {
+h2{
     text-align: center;
 }
 
+p{
+    text-align: center;
+}
 
-main .main-middle {
+.box1{
     display: flex;
-    margin-top: 2rem;
+    justify-content: center;
 }
 
-main .main-middle .middle-main-container {
-    width: 70%;
-    margin-bottom: 2rem;
-    margin-left: 10rem;
+.box2 {
+    padding: 0.5em 1em;
+    width:30%;
+    height: 150px;
+    margin: 1rem;
+    font-weight: bold;
+    border: solid 3px #000000;
+    border-radius: 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
 }
 
-main .main-middle .middle-sub-container {
-    height: auto;
-    width: 30%;
-    margin-bottom: 2rem;
-    margin-left: 2rem;
-    margin-right: 10rem;
+.box2 p {
+    text-align: center;
+    font-size: 20px;
+    border-bottom: solid 1px #000000;
+    margin: 0; 
+    padding: 0;
 }
 
-main .main-middle .middle-sub-container img {
-    margin-bottom: 2rem;
+.box2 table{
+    margin: auto;
+}
+
+.box2 td{
+    padding: 1rem 2rem;
+}
+
+.works-content{
+    text-align: center;    
 }
 
 footer {
